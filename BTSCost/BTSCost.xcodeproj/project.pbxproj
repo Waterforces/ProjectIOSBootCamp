@@ -43,7 +43,6 @@
 		8469BFD32C27D81D00A9FEC8 = {
 			isa = PBXGroup;
 			children = (
-				84B9376C2C2809FF00AE7024 /* page3.swift */,
 				8469BFDE2C27D81D00A9FEC8 /* BTSCost */,
 				8469BFDD2C27D81D00A9FEC8 /* Products */,
 			);
@@ -60,6 +59,7 @@
 		8469BFDE2C27D81D00A9FEC8 /* BTSCost */ = {
 			isa = PBXGroup;
 			children = (
+				84B9376C2C2809FF00AE7024 /* page3.swift */,
 				84B9376A2C27F64A00AE7024 /* page2.swift */,
 				8469BFED2C27DA9200A9FEC8 /* BTSStruct.swift */,
 				8469BFDF2C27D81D00A9FEC8 /* BTSCostApp.swift */,

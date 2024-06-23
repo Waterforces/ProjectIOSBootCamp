@@ -55,7 +55,7 @@ struct ContentView: View {
                             .frame(width: 200)
                         Button("Submit",action:{showResult.toggle()} )
                             .padding([.top],40)
-                    }.sheet(isPresented: $showResult, content: {Result(start: $start, end: $end)})
+                    }.sheet(isPresented: $showResult, content: {page2(start: $start, end: $end)})
                     
                 }
             }

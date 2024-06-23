@@ -16,6 +16,14 @@ struct page2: View {
     @State var startlocat:String = "แพรกษา"
     @State var endlocat:String = "สยาม"
     @State private var showDetails = false
+    @State var station:[[Int]] = [
+        [0,17,25,28,32,35,40,43,45,47,47],[17,0,17,25,28,32,35,40,45,47,47],
+        [25,17,0,17,25,28,32,35,40,43,45],[28,25,17,0,17,25,28,32,35,40,45],
+        [32,28,25,17,0,17,25,28,32,35,40],[35,32,28,25,17,0,17,25,28,32,35],
+        [35,32,28,25,17,0,17,25,28,32,35],[40,35,32,28,25,17,0,17,25,28,32],
+        [43,35,32,28,25,17,0,17,25,28,35],[45,43,40,35,32,28,25,17,0,17,25],
+        [47,45,43,40,35,32,28,25,17,0,17],[47,47,45,43,40,35,32,28,25,17,0],
+    ]
     var body: some View {
         ZStack{
             BackgroundGradient
@@ -58,7 +66,7 @@ struct page2: View {
                                     .frame(width: 100,height: 100)
                                     .cornerRadius(20)
                                 Spacer()
-                                Text("\(start)")
+                                Text("\(station[start][end])")  // here
                                     .font(.system(size: 40))
                                     .padding([.bottom],25)
                                 Text("ยอดเงินทั้งหมด")
@@ -86,7 +94,6 @@ struct page2: View {
                         .frame(width: 320,height: 60)
                         .cornerRadius(10)
                         .padding([.top],40)
-                    Text("dsfohnsodihniosnhisdfhsdhsdhdsjh")
                         .padding([.top],20)
                 }
                 Spacer()
