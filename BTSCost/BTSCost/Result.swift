@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct Result: View {
-    @Binding var money: Int
-    @Binding var mark: String
+    @Binding var start: String
+    @Binding var end: String
     @State var station: [String]=[
     
     ]
@@ -20,5 +20,5 @@ struct Result: View {
 }
 
 #Preview {
-    Result(money: .constant(0), mark: .constant(""))
+    Result(start: .constant(""), end: .constant(""))
 }
