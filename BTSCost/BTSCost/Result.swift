@@ -15,6 +15,7 @@ struct Result: View {
     @Environment(\.dismiss) var dismiss
     var body: some View {
 //        For
+        Text("d")
     }
 }
 

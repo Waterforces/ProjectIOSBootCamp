@@ -13,6 +13,8 @@
 		8469BFE72C27D81D00A9FEC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8469BFE62C27D81D00A9FEC8 /* Preview Assets.xcassets */; };
 		8469BFEE2C27DA9200A9FEC8 /* BTSStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469BFED2C27DA9200A9FEC8 /* BTSStruct.swift */; };
 		8469BFF02C27DE8200A9FEC8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469BFEF2C27DE8200A9FEC8 /* Result.swift */; };
+		84B9376B2C27F64A00AE7024 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9376A2C27F64A00AE7024 /* page2.swift */; };
+		84B9376D2C2809FF00AE7024 /* page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9376C2C2809FF00AE7024 /* page3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8469BFE62C27D81D00A9FEC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8469BFED2C27DA9200A9FEC8 /* BTSStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTSStruct.swift; sourceTree = "<group>"; };
 		8469BFEF2C27DE8200A9FEC8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		84B9376A2C27F64A00AE7024 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
+		84B9376C2C2809FF00AE7024 /* page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 		8469BFD32C27D81D00A9FEC8 = {
 			isa = PBXGroup;
 			children = (
+				84B9376C2C2809FF00AE7024 /* page3.swift */,
 				8469BFDE2C27D81D00A9FEC8 /* BTSCost */,
 				8469BFDD2C27D81D00A9FEC8 /* Products */,
 			);
@@ -55,6 +60,7 @@
 		8469BFDE2C27D81D00A9FEC8 /* BTSCost */ = {
 			isa = PBXGroup;
 			children = (
+				84B9376A2C27F64A00AE7024 /* page2.swift */,
 				8469BFED2C27DA9200A9FEC8 /* BTSStruct.swift */,
 				8469BFDF2C27D81D00A9FEC8 /* BTSCostApp.swift */,
 				8469BFEF2C27DE8200A9FEC8 /* Result.swift */,
@@ -145,8 +151,10 @@
 			files = (
 				8469BFE22C27D81D00A9FEC8 /* ContentView.swift in Sources */,
 				8469BFE02C27D81D00A9FEC8 /* BTSCostApp.swift in Sources */,
+				84B9376D2C2809FF00AE7024 /* page3.swift in Sources */,
 				8469BFF02C27DE8200A9FEC8 /* Result.swift in Sources */,
 				8469BFEE2C27DA9200A9FEC8 /* BTSStruct.swift in Sources */,
+				84B9376B2C27F64A00AE7024 /* page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
