@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct Result: View {
+    @Binding var money: Int
+    @Binding var station: String
+    @Environment(\.dismiss) var dismiss
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("ผลลัพธ์")
     }
 }
 
 #Preview {
-    Result()
+    Result(money: .constant(0), station: .constant(""))
 }
