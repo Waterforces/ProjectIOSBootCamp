@@ -7,21 +7,25 @@
 
 import SwiftUI
 
+let backgroundGradient = LinearGradient(
+    colors: [Color.white, Color.gray],
+    startPoint: .top, endPoint: .bottom)
+
 struct ContentView: View {
     @State var start: Int = 0
     @State var end: Int = 10
-//    @State var s:Int = 0
-//    @State var e:Int = 0
     @State var showResult: Bool=false
     var body: some View {
         ZStack {
-            Color.yellow
-                .ignoresSafeArea(edges: .all)
-                .opacity(0.5)
+//            Color.yellow
+//                .ignoresSafeArea(edges: .all)
+//                .opacity(0.5)
+            backgroundGradient
+                .ignoresSafeArea()
             Spacer()
             VStack {
                 VStack {
-                    Text("How to Go")
+                    Text("How To Go")
                         .font(.title)
                         .fontWeight(.bold)
                     Image("Image")
@@ -31,8 +35,8 @@ struct ContentView: View {
                 }
                 ZStack {
                     RoundedRectangle(cornerRadius: 20.0)
-                        .fill(.gray)
-                        .opacity(0.3)
+                        .fill(.yellow)
+                        .opacity(0.6)
                         .aspectRatio(contentMode: .fit)
                     VStack {
                         Text("สถานีเริ่มต้น")
