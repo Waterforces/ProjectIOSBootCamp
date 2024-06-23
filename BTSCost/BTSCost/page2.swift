@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-let backgroundGradient = LinearGradient(
+let BackgroundGradient = LinearGradient(
     colors: [Color.white, Color.gray],startPoint: .top, endPoint: .bottom
 )
 struct page2: View {
@@ -18,7 +18,7 @@ struct page2: View {
     @State private var showDetails = false
     var body: some View {
         ZStack{
-            backgroundGradient
+            BackgroundGradient
                 .ignoresSafeArea()
             VStack{
                 VStack{
