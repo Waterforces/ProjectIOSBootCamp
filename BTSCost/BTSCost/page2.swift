@@ -79,7 +79,7 @@ struct page2: View {
                 Spacer()
                 ZStack{
                     Color.primary
-                        .frame(width: 350,height: 120)
+                        .frame(width: 350,height: 100)
                         .cornerRadius(20)
                     HStack{
                         Text("คำอธืบาย")
@@ -91,9 +91,9 @@ struct page2: View {
                     }
                     .padding()
                     Color.white
-                        .frame(width: 320,height: 60)
+                        .frame(width: 320,height: 40)
                         .cornerRadius(10)
-                        .padding([.top],40)
+                        .padding([.top],20)
                         .padding([.top],20)
                 }
                 Spacer()
