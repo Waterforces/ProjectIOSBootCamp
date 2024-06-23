@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var money: Int = 0
-    @State var station: String=""
+    @State var mark: String=""
     @State var showResult: Bool=false
     var body: some View {
         Spacer()
@@ -36,11 +36,11 @@ struct ContentView: View {
                 Text("สถานที่")
                     .font(.title)
                     .fontWeight(.bold)
-                TextField("สถานที่", text: $station)
+                TextField("สถานที่", text: $mark)
                     .textFieldStyle(.roundedBorder)
                     .aspectRatio(contentMode: .fit)
                 Button("Submit",action:{showResult.toggle()} )
-            }.sheet(isPresented: $showResult, content: {Result(money: $money, station: $station)})
+            }.sheet(isPresented: $showResult, content: {Result(money: $money, mark: $mark)})
         }
         Spacer()
     }

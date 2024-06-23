@@ -9,7 +9,10 @@ import SwiftUI
 
 struct Result: View {
     @Binding var money: Int
-    @Binding var station: String
+    @Binding var mark: String
+    @State var station: [String]=[
+    
+    ]
     @Environment(\.dismiss) var dismiss
     var body: some View {
         Text("ผลลัพธ์")
@@ -17,5 +20,5 @@ struct Result: View {
 }
 
 #Preview {
-    Result(money: .constant(0), station: .constant(""))
+    Result(money: .constant(0), mark: .constant(""))
 }
